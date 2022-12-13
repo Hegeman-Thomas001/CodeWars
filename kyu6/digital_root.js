@@ -11,6 +11,9 @@ function digitalRoot(n) {
   }
 
   return +sumVal;
+
+  // Didn't see it.
+  // return (n - 1) % 9 + 1;
 }
 
 console.log(digitalRoot(11)); // 2
