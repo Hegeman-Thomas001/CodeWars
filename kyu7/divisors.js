@@ -1,7 +1,8 @@
 function divisors(integer) {
   const arrayRet = [];
+  const halfInt = Math.floor(integer / 2);
 
-  for (let i = 2; i < integer; i++) {
+  for (let i = 2; i < halfInt; i++) {
     if (integer % i === 0) {
       arrayRet.push(i);
     }
