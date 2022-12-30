@@ -25,7 +25,7 @@ function validBraces(braces) {
     }
   }
 
-  return isValid;
+  return isValid && openBraceArr.length === 0;
 }
 
 console.log(validBraces("()))")); // false
