@@ -7,6 +7,7 @@ function findLongest(array) {
     const valLen = val.toString().length;
 
     if (valLen > longestValLen) {
+      longestValLen = valLen;
       valToReturn = val;
     }
   }
