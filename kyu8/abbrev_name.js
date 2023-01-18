@@ -1,5 +1,5 @@
 function abbrevName(name) {
-  // code away
+  // code away NO!
   const nameArr = name.split(" ");
   const retArr = [];
 
