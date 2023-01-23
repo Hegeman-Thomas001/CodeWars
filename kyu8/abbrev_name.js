@@ -1,5 +1,4 @@
 function abbrevName(name) {
-  // code away NO!
   const nameArr = name.split(" ");
   const retArr = [];
 
