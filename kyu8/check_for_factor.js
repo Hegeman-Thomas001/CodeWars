@@ -1,5 +1,5 @@
 function checkForFactor(base, factor) {
-  // code here
+  // remainder equal to zero
   return base % factor === 0;
 }
 
