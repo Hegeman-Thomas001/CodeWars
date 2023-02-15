@@ -9,6 +9,6 @@ function sumDigits(number) {
   return sumDigits;
 }
 
-console.log(sumDigits(10));
-console.log(sumDigits(111));
-console.log(sumDigits(-32));
+console.log(sumDigits(10)); // 1
+console.log(sumDigits(111)); // 3
+console.log(sumDigits(-32)); // 5
