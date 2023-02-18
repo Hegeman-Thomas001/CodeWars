@@ -18,4 +18,4 @@ function switcheroo(x) {
   return arrToStr.join("");
 }
 
-console.log(switcheroo("aaabcccbaaa"));
+console.log(switcheroo("aaabcccbaaa")); // bbbacccabbb
