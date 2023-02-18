@@ -35,9 +35,9 @@ function validatePIN(pin) {
   // return false;
 }
 
-console.log(validatePIN("1"));
-console.log(validatePIN("1234"));
-console.log(validatePIN("123456"));
-console.log(validatePIN("-123"));
-console.log(validatePIN("a123"));
-console.log(validatePIN(".123"));
+console.log(validatePIN("1")); // false
+console.log(validatePIN("1234")); // true
+console.log(validatePIN("123456")); // true
+console.log(validatePIN("-123")); // false
+console.log(validatePIN("a123")); // false
+console.log(validatePIN(".123")); // false
