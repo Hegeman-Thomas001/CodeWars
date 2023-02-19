@@ -13,18 +13,9 @@ function stray(numbers) {
     const innerVal = numbers[index];
 
     if (val !== innerVal) {
-      const nextInnerVal = numbers[index + 1];
-
-      if (nextInnerVal) {
-        if (nextInnerVal === val) {
-          valRet = innerVal;
-        } else if (nextInnerVal === innerVal) {
-          valRet = val;
-        }
-      } else {
-        valRet = innerVal;
-      }
+      valRet = innerVal;
     }
+
     ++index;
   }
 
