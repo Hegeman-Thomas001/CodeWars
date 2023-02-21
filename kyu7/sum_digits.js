@@ -12,3 +12,4 @@ function sumDigits(number) {
 console.log(sumDigits(10)); // 1
 console.log(sumDigits(111)); // 3
 console.log(sumDigits(-32)); // 5
+console.log(sumDigits(1001)); // 2
