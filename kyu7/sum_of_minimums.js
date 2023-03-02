@@ -15,7 +15,7 @@ console.log(
     [6, 3, 5, 4, 3],
     [5, 8, 7, 4, 5],
   ])
-); // 9
+); // 10
 
 console.log(
   sumOfMinimums([
